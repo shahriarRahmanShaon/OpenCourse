@@ -2,6 +2,7 @@ import SwiftUI
 
 struct TabBar: View {
     @State private var selectedTab: Tab = .home
+    @State var tabItemWidth: CGFloat = 0
     
     var body: some View {
         ZStack(alignment: .bottom) {
@@ -36,13 +37,21 @@ struct TabBar: View {
                         }
                         .foregroundStyle(selectedTab == item.tab ? .primary : .secondary)
                         .frame(maxWidth: .infinity)
+                        .overlay(
+                            GeometryReader{ geo in
+                                Color.clear.preference(key: TabPreferenceKay.self, value: geo.size.width)
+                            }
+                        )
+                        .onPreferenceChange(TabPreferenceKay.self, perform: { value in
+                            tabItemWidth = value
+                        })
                     }
                 }
             }
             .padding(.horizontal, 8)
             .padding(.top, 14)
             .frame(height: 88, alignment: .top)
-            .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 34, style: .continuous))
+            .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 34, style: . continuous))
             .background(
                 HStack{
                     if selectedTab == .library {Spacer()}
@@ -50,7 +59,7 @@ struct TabBar: View {
                     if selectedTab == .notification {
                         Spacer()
                         Spacer()}
-                    Circle().fill(.pink).frame(width: 85)
+                    Circle().fill(.pink).frame(width: tabItemWidth)
                     if selectedTab == .home {Spacer()}
                     if selectedTab == .explore {
                         Spacer()
@@ -70,7 +79,7 @@ struct TabBar: View {
                         RoundedRectangle(cornerRadius: 5)
                             .fill(.pink)
                             .frame(width: 30, height: 5)
-                            .frame(width: 75)
+                            .frame(width: tabItemWidth)
                             .frame(maxHeight: .infinity, alignment: .top)
                         if selectedTab == .home {Spacer()}
                         if selectedTab == .explore {
@@ -79,7 +88,7 @@ struct TabBar: View {
                         if selectedTab == .notification {Spacer()}
                         
                     }
-                        .padding(.horizontal, 15)
+                        .padding(.horizontal, 10)
             )
             .frame(maxHeight: .infinity, alignment: .bottom)
             .ignoresSafeArea()
@@ -90,5 +99,6 @@ struct TabBar: View {
 struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
         TabBar()
+            .previewInterfaceOrientation(.portrait)
     }
 }
