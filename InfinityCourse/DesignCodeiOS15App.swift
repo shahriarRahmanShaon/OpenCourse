@@ -1,14 +1,14 @@
 //
-//  InfinityCourseApp.swift
-//  InfinityCourse
+//  DesignCodeiOS15App.swift
+//  DesignCodeiOS15
 //
-//  Created by sergio shaon on 9/4/22.
+//  Created by Meng To on 2021-10-14.
 //
 
 import SwiftUI
 
 @main
-struct InfinityCourseApp: App {
+struct DesignCodeiOS15App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

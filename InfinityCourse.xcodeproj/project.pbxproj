@@ -122,6 +122,7 @@
 			children = (
 				0099E0F328083F0A002BFDBF /* HomeView.swift */,
 				0099E0F428083F0A002BFDBF /* AccountView.swift */,
+				0099E0FC28083F0A002BFDBF /* ContentView.swift */,
 			);
 			name = Views;
 			path = "../../../../../Downloads/SwiftUI iOS 15/Xcode Project Course/21. Project Structure and AppStorage/DesignCodeiOS15/Views";
@@ -142,7 +143,6 @@
 			children = (
 				0099E0FA28083F0A002BFDBF /* TabBar.swift */,
 				0099E0FB28083F0A002BFDBF /* NavigationBar.swift */,
-				0099E0FC28083F0A002BFDBF /* ContentView.swift */,
 			);
 			name = Navigation;
 			path = "../../../../../Downloads/SwiftUI iOS 15/Xcode Project Course/21. Project Structure and AppStorage/DesignCodeiOS15/Navigation";
