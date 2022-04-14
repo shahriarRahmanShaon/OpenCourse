@@ -85,7 +85,7 @@
       "size" : "40x40"
     },
     {
-      "filename" : "iPad_40@2x.png",
+      "filename" : "iPad_40pt@2x.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
@@ -97,7 +97,7 @@
       "size" : "76x76"
     },
     {
-      "filename" : "iPad_76@2x.png",
+      "filename" : "iPad_76pt@2x.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
@@ -109,7 +109,7 @@
       "size" : "83.5x83.5"
     },
     {
-      "filename" : "App Icon iOS.png",
+      "filename" : "App Icon Beta.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"

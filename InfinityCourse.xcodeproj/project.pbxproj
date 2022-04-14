@@ -7,26 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001026D728018C2A00247600 /* InfinityCourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001026D628018C2A00247600 /* InfinityCourseApp.swift */; };
-		001026D928018C2A00247600 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001026D828018C2A00247600 /* ContentView.swift */; };
 		001026DB28018C2C00247600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001026DA28018C2C00247600 /* Assets.xcassets */; };
 		001026DE28018C2C00247600 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001026DD28018C2C00247600 /* Preview Assets.xcassets */; };
-		0034C0D828082D5B007A4E9C /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034C0D728082D5B007A4E9C /* Tab.swift */; };
-		006959CB2808118400167CDD /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006959CA2808118400167CDD /* Styles.swift */; };
-		006959CD2808142A00167CDD /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006959CC2808142A00167CDD /* AccountView.swift */; };
-		006959CF28081C8300167CDD /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006959CE28081C8300167CDD /* TabBar.swift */; };
+		0099E0FD28083F0A002BFDBF /* InfinityCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0E728083F0A002BFDBF /* InfinityCourse.swift */; };
+		0099E0FE28083F0A002BFDBF /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0E928083F0A002BFDBF /* BlobView.swift */; };
+		0099E0FF28083F0A002BFDBF /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0EA28083F0A002BFDBF /* HexagonView.swift */; };
+		0099E10028083F0A002BFDBF /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0EB28083F0A002BFDBF /* FeaturedItem.swift */; };
+		0099E10128083F0A002BFDBF /* ScrollDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0EC28083F0A002BFDBF /* ScrollDetectionView.swift */; };
+		0099E10228083F0B002BFDBF /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0EE28083F0A002BFDBF /* Styles.swift */; };
+		0099E10328083F0B002BFDBF /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0EF28083F0A002BFDBF /* Animations.swift */; };
+		0099E10528083F0B002BFDBF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0F328083F0A002BFDBF /* HomeView.swift */; };
+		0099E10628083F0B002BFDBF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0F428083F0A002BFDBF /* AccountView.swift */; };
+		0099E10728083F0B002BFDBF /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0F628083F0A002BFDBF /* PreferenceKeys.swift */; };
+		0099E10828083F0B002BFDBF /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0F728083F0A002BFDBF /* Tab.swift */; };
+		0099E10A28083F0B002BFDBF /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0FA28083F0A002BFDBF /* TabBar.swift */; };
+		0099E10B28083F0B002BFDBF /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0FB28083F0A002BFDBF /* NavigationBar.swift */; };
+		0099E10C28083F0B002BFDBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099E0FC28083F0A002BFDBF /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		001026D328018C2A00247600 /* InfinityCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinityCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		001026D628018C2A00247600 /* InfinityCourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityCourseApp.swift; sourceTree = "<group>"; };
-		001026D828018C2A00247600 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		001026DA28018C2C00247600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		001026DD28018C2C00247600 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0034C0D728082D5B007A4E9C /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tab.swift; path = "../../../../../Downloads/SwiftUI iOS 15/Xcode Project Course/17. Tab Bar Model and Looping Data/DesignCodeiOS15/Tab.swift"; sourceTree = "<group>"; };
-		006959CA2808118400167CDD /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
-		006959CC2808142A00167CDD /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
-		006959CE28081C8300167CDD /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		0099E0E728083F0A002BFDBF /* InfinityCourse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfinityCourse.swift; path = "../../../../../Downloads/SwiftUI iOS 15/Xcode Project Course/21. Project Structure and AppStorage/DesignCodeiOS15/InfinityCourse.swift"; sourceTree = "<group>"; };
+		0099E0E928083F0A002BFDBF /* BlobView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
+		0099E0EA28083F0A002BFDBF /* HexagonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
+		0099E0EB28083F0A002BFDBF /* FeaturedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
+		0099E0EC28083F0A002BFDBF /* ScrollDetectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDetectionView.swift; sourceTree = "<group>"; };
+		0099E0EE28083F0A002BFDBF /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		0099E0EF28083F0A002BFDBF /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		0099E0F328083F0A002BFDBF /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0099E0F428083F0A002BFDBF /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		0099E0F628083F0A002BFDBF /* PreferenceKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
+		0099E0F728083F0A002BFDBF /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		0099E0FA28083F0A002BFDBF /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		0099E0FB28083F0A002BFDBF /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		0099E0FC28083F0A002BFDBF /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +75,12 @@
 		001026D528018C2A00247600 /* InfinityCourse */ = {
 			isa = PBXGroup;
 			children = (
-				001026D628018C2A00247600 /* InfinityCourseApp.swift */,
-				001026D828018C2A00247600 /* ContentView.swift */,
-				006959CA2808118400167CDD /* Styles.swift */,
-				006959CC2808142A00167CDD /* AccountView.swift */,
-				0034C0D728082D5B007A4E9C /* Tab.swift */,
-				006959CE28081C8300167CDD /* TabBar.swift */,
+				0099E0E728083F0A002BFDBF /* InfinityCourse.swift */,
+				0099E0E828083F0A002BFDBF /* Components */,
+				0099E0F528083F0A002BFDBF /* Model */,
+				0099E0F928083F0A002BFDBF /* Navigation */,
+				0099E0ED28083F0A002BFDBF /* Styles */,
+				0099E0F228083F0A002BFDBF /* Views */,
 				001026DA28018C2C00247600 /* Assets.xcassets */,
 				001026DC28018C2C00247600 /* Preview Content */,
 			);
@@ -77,6 +93,59 @@
 				001026DD28018C2C00247600 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0099E0E828083F0A002BFDBF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0099E0E928083F0A002BFDBF /* BlobView.swift */,
+				0099E0EA28083F0A002BFDBF /* HexagonView.swift */,
+				0099E0EB28083F0A002BFDBF /* FeaturedItem.swift */,
+				0099E0EC28083F0A002BFDBF /* ScrollDetectionView.swift */,
+			);
+			name = Components;
+			path = "../../../../../Downloads/SwiftUI iOS 15/Xcode Project Course/21. Project Structure and AppStorage/DesignCodeiOS15/Components";
+			sourceTree = "<group>";
+		};
+		0099E0ED28083F0A002BFDBF /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				0099E0EE28083F0A002BFDBF /* Styles.swift */,
+				0099E0EF28083F0A002BFDBF /* Animations.swift */,
+			);
+			name = Styles;
+			path = "../../../../../Downloads/SwiftUI iOS 15/Xcode Project Course/21. Project Structure and AppStorage/DesignCodeiOS15/Styles";
+			sourceTree = "<group>";
+		};
+		0099E0F228083F0A002BFDBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0099E0F328083F0A002BFDBF /* HomeView.swift */,
+				0099E0F428083F0A002BFDBF /* AccountView.swift */,
+			);
+			name = Views;
+			path = "../../../../../Downloads/SwiftUI iOS 15/Xcode Project Course/21. Project Structure and AppStorage/DesignCodeiOS15/Views";
+			sourceTree = "<group>";
+		};
+		0099E0F528083F0A002BFDBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0099E0F628083F0A002BFDBF /* PreferenceKeys.swift */,
+				0099E0F728083F0A002BFDBF /* Tab.swift */,
+			);
+			name = Model;
+			path = "../../../../../Downloads/SwiftUI iOS 15/Xcode Project Course/21. Project Structure and AppStorage/DesignCodeiOS15/Model";
+			sourceTree = "<group>";
+		};
+		0099E0F928083F0A002BFDBF /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				0099E0FA28083F0A002BFDBF /* TabBar.swift */,
+				0099E0FB28083F0A002BFDBF /* NavigationBar.swift */,
+				0099E0FC28083F0A002BFDBF /* ContentView.swift */,
+			);
+			name = Navigation;
+			path = "../../../../../Downloads/SwiftUI iOS 15/Xcode Project Course/21. Project Structure and AppStorage/DesignCodeiOS15/Navigation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,12 +218,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				006959CD2808142A00167CDD /* AccountView.swift in Sources */,
-				006959CF28081C8300167CDD /* TabBar.swift in Sources */,
-				006959CB2808118400167CDD /* Styles.swift in Sources */,
-				0034C0D828082D5B007A4E9C /* Tab.swift in Sources */,
-				001026D928018C2A00247600 /* ContentView.swift in Sources */,
-				001026D728018C2A00247600 /* InfinityCourseApp.swift in Sources */,
+				0099E0FF28083F0A002BFDBF /* HexagonView.swift in Sources */,
+				0099E10C28083F0B002BFDBF /* ContentView.swift in Sources */,
+				0099E10A28083F0B002BFDBF /* TabBar.swift in Sources */,
+				0099E10228083F0B002BFDBF /* Styles.swift in Sources */,
+				0099E10528083F0B002BFDBF /* HomeView.swift in Sources */,
+				0099E10728083F0B002BFDBF /* PreferenceKeys.swift in Sources */,
+				0099E10628083F0B002BFDBF /* AccountView.swift in Sources */,
+				0099E0FD28083F0A002BFDBF /* InfinityCourse.swift in Sources */,
+				0099E0FE28083F0A002BFDBF /* BlobView.swift in Sources */,
+				0099E10328083F0B002BFDBF /* Animations.swift in Sources */,
+				0099E10128083F0A002BFDBF /* ScrollDetectionView.swift in Sources */,
+				0099E10028083F0A002BFDBF /* FeaturedItem.swift in Sources */,
+				0099E10B28083F0B002BFDBF /* NavigationBar.swift in Sources */,
+				0099E10828083F0B002BFDBF /* Tab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
