@@ -11,6 +11,10 @@
 		001026D928018C2A00247600 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001026D828018C2A00247600 /* ContentView.swift */; };
 		001026DB28018C2C00247600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001026DA28018C2C00247600 /* Assets.xcassets */; };
 		001026DE28018C2C00247600 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001026DD28018C2C00247600 /* Preview Assets.xcassets */; };
+		0034C0D828082D5B007A4E9C /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034C0D728082D5B007A4E9C /* Tab.swift */; };
+		006959CB2808118400167CDD /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006959CA2808118400167CDD /* Styles.swift */; };
+		006959CD2808142A00167CDD /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006959CC2808142A00167CDD /* AccountView.swift */; };
+		006959CF28081C8300167CDD /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006959CE28081C8300167CDD /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		001026D828018C2A00247600 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		001026DA28018C2C00247600 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		001026DD28018C2C00247600 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0034C0D728082D5B007A4E9C /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tab.swift; path = "../../../../../Downloads/SwiftUI iOS 15/Xcode Project Course/17. Tab Bar Model and Looping Data/DesignCodeiOS15/Tab.swift"; sourceTree = "<group>"; };
+		006959CA2808118400167CDD /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		006959CC2808142A00167CDD /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		006959CE28081C8300167CDD /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				001026D628018C2A00247600 /* InfinityCourseApp.swift */,
 				001026D828018C2A00247600 /* ContentView.swift */,
+				006959CA2808118400167CDD /* Styles.swift */,
+				006959CC2808142A00167CDD /* AccountView.swift */,
+				0034C0D728082D5B007A4E9C /* Tab.swift */,
+				006959CE28081C8300167CDD /* TabBar.swift */,
 				001026DA28018C2C00247600 /* Assets.xcassets */,
 				001026DC28018C2C00247600 /* Preview Content */,
 			);
@@ -137,6 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006959CD2808142A00167CDD /* AccountView.swift in Sources */,
+				006959CF28081C8300167CDD /* TabBar.swift in Sources */,
+				006959CB2808118400167CDD /* Styles.swift in Sources */,
+				0034C0D828082D5B007A4E9C /* Tab.swift in Sources */,
 				001026D928018C2A00247600 /* ContentView.swift in Sources */,
 				001026D728018C2A00247600 /* InfinityCourseApp.swift in Sources */,
 			);
